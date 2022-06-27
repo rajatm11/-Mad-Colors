@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{d758d257-c1a9-4f4a-a571-2cbaf8e55797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{f51d5f90-0bdb-4d81-852e-94054513046b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTechRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkedGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Opponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RefillPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColourBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUI.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkProjectile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkColourBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NetworkRefillPoint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderLineObj.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameTechRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkedGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Opponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RefillPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColourBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUI.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkProjectile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkColourBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetworkRefillPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintSplat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderLineObj.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Assets\Shaders\BoxFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\DebugFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\DebugVert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GameTechFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GameTechShadowFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GameTechShadowVert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\GameTechVert.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\guardVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\skyboxFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\skyboxVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\turtleFragment.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\turtleVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\lineGeometry.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\lineFrag.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\Assets\Shaders\lineVertex.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
